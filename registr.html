@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ro'yxatdan o'tish</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registr.css">
+   
+</head>
+<body>
+    <div class="registration-form">
+        <form>
+            <div class="">
+                <h4 class="boshi">Darslarimizni sotib olish uchun ro'yxatdan o'ting</h4>
+            </div>
+
+
+            <div class="form-group">
+              <input type="text" class="form-control item" id="email" placeholder="Emailingizni kiriting">
+            </div>
+            <div class="form-group">
+               <input type="text" class="form-control item" id="phone-number" placeholder="telefon nomeringizni 99-999-99-99 ko'rinishida kiriting">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control item" id="password" placeholder="Parolni kiriting">
+            </div>            <div class="form-group">
+                <input type="password" class="form-control item" id="password" placeholder="Parolni tasdiqlang">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-block create-account">Ro'yxatdan o'tish</button>
+            </div>
+        </form>
+
+    </div>
+    <div class="col" style="text-align: center;">
+        <a href="index.html">Bosh sahifaga o'tish</a>
+        
+        </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        $(document).ready(function(){
+ 
+  $('#phone-number').mask('00-000-00-00');
+ })
+    </script>
+</body>
+</html>
